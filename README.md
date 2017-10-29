@@ -4,5 +4,5 @@ File generator with variable size using random data, ideal for the replication o
 Compilation
 ----------------------------------------------------------
 Linux = gcc gendat.c -o gendat -std=c11 
+
 Windows = gcc gendat.c -o gendat -static-libgcc -std=c11
-----------------------------------------------------------
