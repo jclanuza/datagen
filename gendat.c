@@ -12,7 +12,7 @@ int main(void)
 	int data_type, data_size;
 	char data_name[50];
 	fprintf(stdout,"Precise Data Generator %.1f\n"
-				   "------------------------------\n\n",version);
+		       "------------------------------\n\n",version);
 	fprintf(stdout,"Type of size file | (0)Bytes - (1) KB - (2) MB - (3) GB : ");
 	scanf("%d",&data_type);
 	fprintf(stdout,"File Size: ");
@@ -20,7 +20,7 @@ int main(void)
 	fprintf(stdout,"Name of Data: ");
 	scanf("%s",data_name);
 	puts("------------------------------\n"
-		 "Generating Data, Please wait !");
+	     "Generating Data, Please wait !");
 	gendata(data_type, data_size, data_name);
 	
 	exit(EXIT_SUCCESS);
